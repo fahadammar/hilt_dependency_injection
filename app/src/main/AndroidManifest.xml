@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.google.sample.dependencyhilt">
 
+    <!-- First after creating the application class, declare in the manifest toou -->
+    <!-- android:name=".ApplicationClass"  -->
     <application
+        android:name=".ApplicationClass"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

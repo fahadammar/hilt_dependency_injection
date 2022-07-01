@@ -9,8 +9,9 @@ import javax.inject.Inject
 @HiltAndroidApp
 class ApplicationClass : Application() {
 
+    // Fields cannot be private!!
     @Inject
-    private lateinit var fieldInjectionClass: FieldInjectionClass
+    lateinit var fieldInjectionClass: FieldInjectionClass
 
     override fun onCreate() {
         super.onCreate()
