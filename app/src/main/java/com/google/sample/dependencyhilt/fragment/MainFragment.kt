@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.sample.dependencyhilt.R
+import com.google.sample.dependencyhilt.constructorInjection.ConstructorInjection
 import com.google.sample.dependencyhilt.fieldInjection.FieldInjectionClass
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -14,8 +15,15 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class MainFragment : Fragment() {
 
+    // NOTE: right now the field injection is not being done, now the constructor injection is been done
+
+    /*
     @Inject
     lateinit var fieldInjectionClass: FieldInjectionClass
+    */
+
+    @Inject
+    lateinit var constructorInjection: ConstructorInjection
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,8 +36,13 @@ class MainFragment : Fragment() {
     ): View? {
 
         // Field injection done, check the Logcat
-        fieldInjectionClass.justLog()
+        //fieldInjectionClass.justLog()
 
+        // The Constructor Injection is done in the class ConstructorInjection
+        // callingLog function is basically calling the function of class FieldInjection justLog()
+        // ConstructorInjection needs the objects of FieldInjection, hence the object is passed or
+        // provided to the ConstructorInjection class via the constructor - This is known as Constructor Injection
+        constructorInjection.callingLog()
 
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_main, container, false)

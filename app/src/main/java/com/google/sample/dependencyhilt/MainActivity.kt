@@ -11,7 +11,7 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     // NOTE: We are not doing the filed injection in this activity right now - Field Injection is taking place in Fragment
-    
+
     // FIELD OR PROPERTY  INJECTION
     /*
     @Inject

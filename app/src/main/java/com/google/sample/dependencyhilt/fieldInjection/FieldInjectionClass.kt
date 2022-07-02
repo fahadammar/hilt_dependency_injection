@@ -11,6 +11,10 @@ class FieldInjectionClass @Inject constructor() {
     fun justLog(){
             Log.i(TAG, "I'm Field Injected")
     }
+
+    fun justLog(msg : String){
+            Log.i(TAG, msg)
+    }
 }
 
 /*
