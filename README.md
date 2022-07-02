@@ -59,3 +59,4 @@ Dependency injection is basically providing the objects, the object needs (its d
 <img src="d_i.png"/>
 <hr/>
 <h3>Clone the Code. It Contains the Dependency Injection Via Hilt</h3>
+<h3>Also don't forget to read the comments in the code, they're helpful!!</h3>
