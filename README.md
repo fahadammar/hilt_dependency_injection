@@ -24,6 +24,23 @@ Dependency injection is basically providing the objects, the object needs (its d
 <li> Single Responsibility </li>
 <li> Lifetime of objects (Reusability) </li>
 </ol>
+
+<strong> These factors come into play when dependency injection is not implemented </strong>
+<br/>
+<strong> with the help of dependecy injection, these factors are removed </strong>
+
 <p>
 
+<h2> Types Of Dependency Injection </h2>
+<p>
+<strong> There are 3 types of <i>Dependency Injection (DI):</i> </strong>
+<ol>
+<li>Constructor Injection</li>
+<li>Method Injection</li>
+<li>Property Injection (sometimes also said as field injection)</li>
+</ol>
+
+</p>
+
+<h2> The Annotations and Usages </h2>
 <img src="d_i.png"/>
