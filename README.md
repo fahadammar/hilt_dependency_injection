@@ -1,7 +1,13 @@
 # hilt_dependency_injection
 
 <h2>The Dependency Injection (DI) via Hilt</h2>
-
+<p>
+<h3 style={text-align: right}>To Connect Or Follow</h3>
+<br/>
+<a href="https://www.linkedin.com/in/fahadammar/" target="_blank">
+<img src="linkedin.png" width="250px" heigh="100px" alt="Fahad Ammar LinkedIn"/>
+</a>
+<p>
 <p>
 <strong>
 What is dependency injection and when/why should or shouldn't it be used?
