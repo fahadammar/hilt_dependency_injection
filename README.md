@@ -2,11 +2,12 @@
 
 <h2>The Dependency Injection (DI) via Hilt</h2>
 <p>
-<h3 style={text-align: right}>To Connect Or Follow</h3>
-<br/>
+<h3 style="text-align: right;">To Connect Or Follow</h3>
+<div style="text-align: right;">
 <a href="https://www.linkedin.com/in/fahadammar/" target="_blank">
-<img src="linkedin.png" width="250px" heigh="100px" alt="Fahad Ammar LinkedIn"/>
+<img src="linkedin.png" width="250px" height="100px" alt="Fahad Ammar LinkedIn"/>
 </a>
+</div>
 <p>
 <p>
 <strong>
