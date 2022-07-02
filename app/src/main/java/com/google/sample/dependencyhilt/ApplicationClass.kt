@@ -10,8 +10,6 @@ import javax.inject.Inject
 class ApplicationClass : Application() {
     override fun onCreate() {
         super.onCreate()
-
-
     }
 }
 
