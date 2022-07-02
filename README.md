@@ -1,13 +1,15 @@
-# hilt_dependency_injection
+# Hilt Dependency Injection (DI)
 
-<h2>The Dependency Injection (DI) via Hilt</h2>
-<p>
-<h3 style="text-align: right;">To Connect Or Follow</h3>
-<div style="align: right;">
+<h3 align="center">To Connect Or Follow</h3>
+<div align="center">
 <a href="https://www.linkedin.com/in/fahadammar/" target="_blank">
 <img src="linkedin.png" width="250px" height="100px" alt="Fahad Ammar LinkedIn"/>
 </a>
 </div>
+
+<h2>The Dependency Injection (DI) via Hilt</h2>
+<p>
+
 <p>
 <p>
 <strong>
