@@ -7,7 +7,7 @@
 </a>
 
 <a href="https://github.com/fahadammar" target="_blank">
-<img src="github.png" width="290px" height="110px" alt="Fahad Ammar LinkedIn"/>
+<img src="github.png" width="290px" height="110px" alt="Fahad Ammar GitHub"/>
 </a>
 </div>
 
