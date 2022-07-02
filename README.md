@@ -1,13 +1,17 @@
 # Hilt Dependency Injection (DI)
-
-<h3 align="center">To Connect Or Follow</h3>
+<!-- <h3>The Dependency Injection (DI) via Hilt</h3> -->
+<h2 align="center">To Connect Or Follow</h2>
 <div align="center">
 <a href="https://www.linkedin.com/in/fahadammar/" target="_blank">
-<img src="linkedin.png" width="250px" height="100px" alt="Fahad Ammar LinkedIn"/>
+<img src="linkedin.png" width="200px" height="105px" alt="Fahad Ammar LinkedIn"/>
+</a>
+
+<a href="https://github.com/fahadammar" target="_blank">
+<img src="github.png" width="290px" height="110px" alt="Fahad Ammar GitHub"/>
 </a>
 </div>
 
-<h2>The Dependency Injection (DI) via Hilt</h2>
+
 <p>
 
 <p>
@@ -53,3 +57,5 @@ Dependency injection is basically providing the objects, the object needs (its d
 
 <h2> The Annotations and Usages </h2>
 <img src="d_i.png"/>
+<hr/>
+<h3>Clone the Code. It Contains the Dependency Injection Via Hilt</h3>
