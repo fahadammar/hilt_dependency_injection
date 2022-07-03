@@ -11,8 +11,10 @@ import com.google.sample.dependencyhilt.fieldInjection.FieldInjectionClass
 import com.google.sample.dependencyhilt.module_installIn.InterfaceOfObjects
 import com.google.sample.dependencyhilt.module_installIn.ObjectModule
 import com.google.sample.dependencyhilt.module_installIn.ReturnObjects
+import com.google.sample.dependencyhilt.module_installIn.TheNamedAnnotaion
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import javax.inject.Named
 
 // The Same Annotation used, as used for the activity
 @AndroidEntryPoint
@@ -30,8 +32,13 @@ class MainFragment : Fragment() {
     lateinit var constructorInjection: ConstructorInjection
      */
 
+
+    // We are writing the name here to tell that we want this object. Writing the names can by a typo mistake
+    // There is a better option too. To Make a annotation and make that the name. Let's see the implementation
     @Inject
+    @TheNamedAnnotaion
     lateinit var interfaceOfObjects: InterfaceOfObjects
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,7 +61,10 @@ class MainFragment : Fragment() {
         */
         //constructorInjection.callingLog()
 
+
         interfaceOfObjects.logObjects()
+
+
 
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_main, container, false)

@@ -2,11 +2,13 @@ package com.google.sample.dependencyhilt.module_installIn
 
 import com.google.sample.dependencyhilt.MainActivity
 import com.google.sample.dependencyhilt.fragment.MainFragment
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.android.components.FragmentComponent
+import javax.inject.Named
 
 // This way we define a module. All the methods in it tell us that how to create the object of any dependency
 // Any such dependency which object can't be created directly, in simple you can't use the @Inject there.
@@ -21,9 +23,17 @@ class ObjectModule {
 
     // Whenever the Hilt needs the object of InterfaceObjects, hilt will call this function
     @Provides
-    fun returnObjectModule() : InterfaceOfObjects{
+    @Named("returnObjects")
+    fun returnObjecstModule() : InterfaceOfObjects{
         // Return the object of class ReturnObjects
         return ReturnObjects()
+    }
+
+    @Provides
+    // This below is done, to avoid the typos. It's the suggestable way
+    @TheNamedAnnotaion
+    fun returnObjectModule() : InterfaceOfObjects{
+        return ReturnObject()
     }
 }
 
