@@ -22,7 +22,7 @@ What is dependency injection and when/why should or shouldn't it be used?
 </p>
 
 <p align="justify">
-Dependency Injection is passing dependency to other objects or framework( dependency injector).
+Dependency Injection is passing dependency to other objects or framework(dependency injector).
 Dependency injection is basically providing the objects, the object needs (its dependencies) instead of having it construct them itself. It's a very useful technique for testing, since it allows dependencies to be mocked or stubbed out.
 </p>
 
